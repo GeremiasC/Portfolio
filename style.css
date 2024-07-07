@@ -201,4 +201,7 @@ body.dark-mode .contact-icons a[href*="mail"] i {
     transform: scale(1.1);
 }
 
-
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
