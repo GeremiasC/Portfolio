@@ -8,6 +8,17 @@ html, body {
     background-color: #ffffff;
 }
 
+:root {
+    --background: #ffffff;
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+.dark-mode {
+    --background: #1e1e1e;
+    --color: #ffffff;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -207,17 +218,4 @@ body.dark-mode .contact-icons a[href*="mail"] i {
 .contact-info p {
     margin: 5px 0;
     font-size: 16px;
-}
-
-
-:root {
-    --background-color: rgb(255, 255, 255);
-    --text-color: black;
-    --footer-bg-color: #f1f1f1;
-}
-
-.dark-mode {
-    --background-color: black;
-    --text-color: grey;
-    --footer-bg-color: #333;
 }
