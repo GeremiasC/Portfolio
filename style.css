@@ -111,6 +111,7 @@ body.dark-mode #hero h1 {
 
 body.dark-mode #project h2 {
     color: #ffffff;
+    background-color: #1e1e1e;
 }
 
 .project-container {
