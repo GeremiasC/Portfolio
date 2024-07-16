@@ -8,11 +8,6 @@ html, body {
     background-color: #f4f4f9;
 }
 
-html.dark-mode {
-    background: #1e1e1e;
-    color: #ffffff;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -60,7 +55,6 @@ nav ul li a {
 
 body.dark-mode nav ul li a {
     color: #ffffff;
-    background: #1e1e1e;
 }
 
 #toggle-dark-mode {
@@ -77,7 +71,6 @@ body.dark-mode nav ul li a {
 
 body.dark-mode #toggle-dark-mode {
     color: #ffffff;
-    background: #1e1e1e;
 }
 
 #hero {
@@ -157,6 +150,10 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+body.dark-mode footer {
+    background: #1e1e1e;
 }
 
 body.dark-mode #contact {
